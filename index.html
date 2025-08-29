@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!-- ============== CSS File ============== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ============= Responsive CSS File ============== -->
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+
+  <body>
+    <!-- ================ Header Section ============== -->
+    <header>
+      <nav id="nav-bar">
+        <div class="logo">
+          <a href="#home">
+            <h4 class="coder">My Portfolio<span class="span"></span></h4>
+          </a>
+        </div>
+
+        <ul class="nav_bar" id="nav-items">
+          <li class="active"><a href="#home" class="nav_link">Home</a></li>
+          <li><a href="#about" class="nav_link">About Me</a></li>
+          <li><a href="#skills" class="nav_link">Skills</a></li>
+          <li><a href="#portfolio" class="nav_link">Portfolio</a></li>
+          <li><a href="#contact" class="nav_link">Contact</a></li>
+        </ul>
+        
+       
+          <div class="menu-icon">
+            <button id="menu-btn" class="bx bx-menu bx-lg"></button>
+            <button id="close-btn" class="bx bx-x bx-lg"></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ================= End Header Section ============== -->
+
+    <!-- ================= Main Section ============== -->
+    <main>
+      <!-- ================= Home Section ============== -->
+      <section
+        id="home">
+        <div class="home_left">
+          <h3>Welcome To Personal Portfolio</h3>
+          <h2>Hi I'm Ralph</h2>
+
+          <div class="text-animate">
+            <h2>I'm a <span id="auto-type"></span></h2>
+          </div>
+
+          <p>
+            I aspire to start my career where I can execute my knowledge and
+            skill to fulfill the responsibilities to the best of my ability with
+            a desire to grow along with the organization
+          </p>
+
+         
+        </div>
+        <div class="home_right">
+          <img src="img/ralph.jpg" alt="" />
+        </div>
+      </section>
+      <!-- ================= End Home Section ============== -->
+
+      <!-- ================= About Section ============== -->
+      <section id="about">
+        <div class="about_left">
+          <img src="img/ralph1.jpg" alt="" />
+        </div>
+        <div class="about_right">
+          <h2>I'm Ralph De Guzman.</h2>
+          <p>
+            I`m a 3rd year Computer Science Student in Concepcion holy Cross College Inc.<br>
+            From Capas, Tarlac. I`m 21 years old. I love repairing motorcycle and playing online games like Mobile Legends
+          </p>
+        </div>
+      </section>
+      <!-- ================= End About Section ============== -->
+      <!-- ================= Skills Section ============== -->
+      <section id="skills">
+        <div class="skills_left">
+         <center> <h2>MY SKILLS</h2></center>
+          <div class="skills_cards">
+            <div class="skill_card" style="background-color: #9bd3d0">
+              <div class="icon">
+                <i class="bx bxl-html5"></i>
+              </div>
+              <div class="texts">
+                <h3>HTML</h3>
+              </div>
+            </div>
+            <div class="skill_card" style="background-color: #fec447">
+              <div class="icon">
+                <i class="bx bxl-css3"></i>
+              </div>
+              <div class="texts">
+                <h3>CSS</h3>
+              </div>
+            </div>
+            <div class="skill_card" style="background-color: #92b5ff">
+              <div class="icon">
+                <i class="bx bxl-javascript"></i>
+              </div>
+              <div class="texts">
+                <h3>JavaScript</h3>
+              </div>
+            </div>
+            <div class="skill_card" style="background-color: #99ffa6">
+              <div class="icon">
+                <i class="bx bxl-java"></i>
+              </div>
+              <div class="texts">
+                <h3>Java</h3>
+              </div>
+            </div>
+      </section>
+      <!-- ================= End Skills Section ============== -->
+
+      <!-- ================= Portfolio Section ============== -->
+      <section id="portfolio">
+        <h2>PROJECTS</h2>
+        <div class="card_portfolio">
+          <div class="card_left">
+            <img src="img/jav.jpg" alt="card_portfolio image1" />
+          </div>
+          <div class="card_right">
+            <h4>JAVA PROGRAM</h4>
+            <h3>Event Driven Programming
+            </h3>
+            <p>
+The Java BMI Calculator uses **Swing** components like `JFrame`, `JButton`, `JLabel`, `JPanel`, and `JTextField` to build a graphical user interface. 
+            </p>
+            <div class="btn_box">
+              <a href="https://us.docworkspace.com/d/sIM6Un9ToAZG2_MQG?sa=601.1120" class="btn">CLICK!</a>
+            </div>
+          </div>
+        </div>
+       
+        
+      </section>
+      <!-- ================= End Portfolio Section ============== -->
+
+      <!-- ================= Contact Section ============== -->
+      <section id="contact">
+        <div class="contact_left">
+          <div class="main-text">
+            <h2>Contact Me</h2>
+            <span>Get in touch with me</span>
+          </div>
+          <label for="text">First Name</label>
+          <input type="text" placeholder="First Name" />
+          <label for="email">Email</label>
+          <input type="email" placeholder="Email" />
+          <label for="subject">Subject</label>
+          <input type="text" placeholder="Subject" />
+          <label for="message">Message</label>
+          <textarea
+            name="#"
+            id=""
+            cols="20"
+            rows="6"
+            placeholder="Enter a message......"
+          >
+          </textarea>
+          <div class="formBtn">
+            <button type="submit">Send Message</button>
+          </div>
+        </div>
+        <div class="contact_right">
+          <img src="img/contact-image.png" alt="" />
+        </div>
+      </section>
+
+      <!-- ================= End Contact Section ============== -->
+    </main>
+    <!-- ================= End Main Section ============== -->
+  <!-- ================= Footer Section ============== -->
+    <footer>
+      <div class="footer_top">
+        <div class="footer_left">
+          <h3>Ralph`s Portfolio</h3>
+
+          <span
+            >Thank you for visiting my personal portfolio <br />website. Connect
+            with me over socials.</span
+          >
+        </div>
+        <div class="footer_center">
+          <h3>Quick Links</h3>
+          <a href="#home" class="footer_center_card">
+            <i class="bx bxs-chevron-right-circle"></i>
+            Home
+          </a>
+          <a href="#about" class="footer_center_card">
+            <i class="bx bxs-chevron-right-circle"></i>
+            About Me
+          </a>
+          <a href="#portfolio" class="footer_center_card">
+            <i class="bx bxs-chevron-right-circle"></i>
+            Portfolio
+          </a>
+          <a href="#skills" class="footer_center_card">
+            <i class="bx bxs-chevron-right-circle"></i>
+            Skills
+          </a>
+          
+          <a href="#contact" class="footer_center_card">
+            <i class="bx bxs-chevron-right-circle"></i>
+            Contact
+          </a>
+        </div>
+        <div class="footer_right">
+          <h3>Contact Info</h3>
+          <div class="footer_right_card">
+            <i class="bx bxl-gmail"></i>
+            leileideguzman96@gmail.com
+          </div>
+          <div class="footer_right_card">
+            <i class="bx bx-map"></i>
+            Capas, Tarlac
+          </div>
+          <div class="social_media">
+            
+            <a href="https://www.leileideguzman96@gmail.com" target="_blank">
+              <i class="bx bxl-gmail"></i>
+            </a>
+            <a href="https://github.com/leileideguzman96-arch" target="_blank">
+              <i class="bx bxl-github"></i>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <p>
+          Copyright © 2025 by || <a href="https://github.com/coder-92/portfolioproject-" target="_blank">Ralph De Guzman</a> || All Right Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- ================= End Footer Section ============== -->
+
+    <!-- ================= Js File -->
+    <script src="index.js"></script>
+  </body>
+</html>
